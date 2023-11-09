@@ -1,4 +1,4 @@
--- Active: 1675359864041@@127.0.0.1@3306
+-- Active: 1699465764325@@127.0.0.1@3306
 
 CREATE TABLE
     users (
@@ -21,17 +21,17 @@ CREATE TABLE
 INSERT INTO
     users (id, name, email, password)
 VALUES (
-        "u001",
-        "Fulano",
-        "fulano@email.com",
-        "fulano123"
+        'u001',
+        'Fulano',
+        'fulano@email.com',
+        'fulano123'
     ), (
-        "u002",
-        "Beltrana",
-        "beltrana@email.com",
-        "beltrana00"
+        'u002',
+        'Beltrana',
+        'beltrana@email.com',
+        'beltrana00'
     );
 
 INSERT INTO
     accounts (id, owner_id)
-VALUES ("a001", "u001"), ("a002", "u002");
+VALUES ('a001', 'u001'), ('a002', 'u002');
